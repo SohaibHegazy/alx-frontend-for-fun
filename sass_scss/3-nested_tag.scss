@@ -1,11 +1,13 @@
-// styles.scss
+// Nested tag
 
 body {
   margin: 0;
   padding: 0;
 
-  body.p {
-    margin: 10px;
-  }
+  body {
+	 p {
+		 margin: 10px;
+	 }
+ }
 }
 
